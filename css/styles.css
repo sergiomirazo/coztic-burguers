@@ -308,9 +308,9 @@ h3 {
     justify-content: justify;
     text-align: justify;
     color: var(--white);
-    background: -webkit-linear-gradient(to right, var(--red500), var(--yellow500));
+    background: -webkit-linear-gradient(to right, var(--color-default), var(--gray500));
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, var(--yellow300), var(--yellow500));
+    background: linear-gradient(to right, var(--color-default), var(--gray500));
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -320,9 +320,9 @@ h3 {
     justify-content: justify;
     text-align: justify;
     color: var(--white);
-    background: -webkit-linear-gradient(to right, var(--red500), var(--yellow500));
+    background: -webkit-linear-gradient(to right, var(--color-default), var(--gray500));
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, var(--yellow300), var(--yellow500));
+    background: linear-gradient(to right, var(--color-default), var(--gray500));
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -361,8 +361,8 @@ h3 {
     height: fit-content;
     background: radial-gradient(
         circle,
-        var(--red800) 10%,
-        var(--red700) 90%
+        var(--red500) 20%,
+        var(--red700) 80%
     );
     padding: 4em;
     margin-top: 2em;
@@ -469,9 +469,9 @@ h3 {
 
 .box-title {
     background-color: var(--black);
-    background: -webkit-linear-gradient(to right, var(--black), var(--red900));
+    background: -webkit-linear-gradient(to right, var(--red800), var(--red500));
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, var(--red900), var(--red500));
+    background: linear-gradient(to right, var(--red800), var(--red500));
     border-radius: var(--border-radius);
     border: 1px solid whitesmoke;
     color: white;
@@ -487,6 +487,10 @@ h3 {
     
     padding: 1em;
     box-shadow: 20px 10px 8px var(--gray600);
+}
+
+.box-title:hover{
+    color: var(--color-secondary);
 }
 
 
