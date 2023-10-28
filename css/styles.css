@@ -57,12 +57,12 @@
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: var(--yellow500); 
+    background: var(--red500); 
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--yellow700); 
+    background: var(--red700); 
   }
 a{
     color: var(--Darkred);
@@ -155,7 +155,7 @@ h3 {
 
 .button-primary:hover {
     border: 3px var(--red500);
-    color: var(--black);
+    color: var(--yellow400);
     padding: 5px 10px;
     border-radius: var(--border-radius);
     text-align: center;
@@ -184,7 +184,7 @@ h3 {
     background-color: var(--yellow500);
     border: none;
     border-color: none;
-    color: var(--gray100);
+    color: var(--red500);
     padding: 5px 10px;
     border-radius: var(--border-radius);
     text-align: center;
@@ -221,7 +221,7 @@ h3 {
 }
 
 .texto-borde {
-    -webkit-text-stroke: 2px var(--color-primary);
+    -webkit-text-stroke: 1px var(--color-primary);
     color: transparent; 
   }
 
@@ -398,6 +398,15 @@ h3 {
 }
 
 .horizontal-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.horizontal-container-icons{
     display: flex;
     flex-direction: row;
     align-items: center;
